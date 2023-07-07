@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'second_page.dart';
+
 
 class MyFirstPage extends StatelessWidget {
   const MyFirstPage({super.key});
@@ -35,11 +37,11 @@ class MyFirstPage extends StatelessWidget {
                   children: [
                     OutlinedButton(
                       onPressed: () {
-                        if (kDebugMode) {
-                          print("I was pressed");
-                        }
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                          return SecondPage();
+                        },),);
                       },
-                      child: const Text("Thanks you"),
+                      child: const Text("Second Page"),
                     ),
                     const SizedBox(width: 10.0),
                     OutlinedButton(
