@@ -1,16 +1,17 @@
-# internship_bsu
+<!-- ABOUT THE PROJECT -->
+# INTERSHIP Project
 
-A new Flutter project.
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-## Getting Started
+This is my very first and last Internship project
 
-This project is a starting point for a Flutter application.
+<!-- ROADMAP -->
+## TODO 
 
-A few resources to get you started if this is your first Flutter project:
+- [x] Show profile picture
+- [ ] Add Home screen
+- [ ] Navigate to another screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Languages Used
+- Dart
+- Flutter

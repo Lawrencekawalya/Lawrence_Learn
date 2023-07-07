@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,9 +39,9 @@ class MyFirstPage extends StatelessWidget {
             children: [
               const SizedBox(height: 20.0),
               const CircleAvatar(
-                radius: 40.0,
-                child: Text("BSU"),
-              ),
+                  radius: 40.0,
+                  // child: Text("BSU"),
+                  backgroundImage: AssetImage("images/profile.jpeg")),
               const SizedBox(height: 10.0),
               const Text(
                 "Students of BSU",
@@ -56,21 +57,27 @@ class MyFirstPage extends StatelessWidget {
                   children: [
                     OutlinedButton(
                       onPressed: () {
-                        print("I was pressed");
+                        if (kDebugMode) {
+                          print("I was pressed");
+                        }
                       },
                       child: const Text("Thanks you"),
                     ),
                     const SizedBox(width: 10.0),
                     OutlinedButton(
                       onPressed: () {
-                        print("I was pressed");
+                        if (kDebugMode) {
+                          print("I was pressed");
+                        }
                       },
                       child: const Text("Thanks you"),
                     ),
                     const SizedBox(width: 10.0),
                     OutlinedButton(
                       onPressed: () {
-                        print("I was pressed");
+                        if (kDebugMode) {
+                          print("I was pressed");
+                        }
                       },
                       child: const Text("Thanks you"),
                     )
